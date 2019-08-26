@@ -1,0 +1,55 @@
+/* font-family: 'Cookie', cursive; */
+@import url('https://fonts.googleapis.com/css?family=Cookie&display=swap');
+
+/* font-family: 'Open Sans', sans-serif; */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&display=swap');
+/*Config Logo*/
+header h1{
+    background-color: #ACD0B6;
+    text-align: center;
+    margin: 0;
+    width: 100%;
+}
+/*Config H1*/
+h1 {
+    font-family: 'Cookie', cursive;
+    font-size: 71px;
+    color: #ACD0B6;
+    text-align: center;
+    margin: 20px; 
+}
+/*Import Backgroun*/
+body{
+	background-image: url("assets/04-BG.png");
+}
+/* Margin Setting, Form Size, Form Border and Font*/
+.form-style input[type="submit"], input[type="text"], textarea{
+    margin-top: 15px;
+    margin-left: 40%;
+    width: 20%;
+    border-radius: 5px;
+    font-family: 'Open Sans', sans-serif;
+}
+/*Config Submit*/
+.form-style input[type="submit"]{
+    text-align: center;
+    font-weight: bold;
+    font-size: 22px;
+    color: white;
+    background-color: #71A397;
+    border-bottom-color: #4A8978;
+    border-bottom-width: 2px;
+}
+/*Config Text and Textarea*/
+.form-style input[type="text"], textarea{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: lighter;
+    color: gray;
+    background-color: white;
+    border: none;
+}
+/*Heigth Textarea*/
+.form-style textarea{
+    height: 100px;
+}
